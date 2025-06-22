@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Интерактивный 3D-тур</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/pannellum.css">
   <style>
     html, body { margin:0; height:100%; }
@@ -11,11 +12,13 @@
 </head>
 <body>
   <audio id="bg-music" src="music/luxury.mp3" autoplay loop hidden></audio>
+
   <div id="panorama"></div>
 
   <script src="js/pannellum.js"></script>
   <script>
     const hfovValue = (window.innerWidth <= 600 ? 80 : 120);
+    console.
 
     pannellum.viewer('panorama', {
       default: {
