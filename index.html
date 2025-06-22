@@ -24,8 +24,20 @@
       scenes: {
         scene1: {
           title: 'Гостиная',
-          type: 'equirectangular',
-          panorama: 'images/pano1.jpg',
+          // type: 'equirectangular',
+          type: 'multires',
+          // panorama: 'images/pano1.jpg',
+          multiRes: {
+            // config: 'images/tiles/output/config.json'
+            basePath: 'images/tiles/output',
+            "shtHash": "5z~pRij[jZaekCayj[ayj[fkj[f6ayjZj[f6ayayj[ayWBj[ayj[ayWBaej[ayf6j[azf6offk",
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/fallback/%s",
+            "extension": "jpg",
+            "tileResolution": 512,
+            "maxLevel": 4,
+            "cubeResolution": 3176
+          },
           hfov: 120,               
           pitch: 0,
           yaw: 180,
@@ -44,8 +56,20 @@
         },
         scene2: {
           title: 'Корридор',
-          type: 'equirectangular',
-          panorama: 'images/pano2.jpg',
+          // type: 'equirectangular',
+          type: 'multires',
+          // panorama: 'images/pano1.jpg',
+          multiRes: {
+            // config: 'images/tiles/output2/config.json'
+            basePath: 'images/tiles/output2',
+            "shtHash": "5z~pWBa|t7WAWBf6ofogWBj[a}ayWBayayayj[fPWBf6WCaya}ayayayfRayj[j]jtj[j[fQjt",
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/fallback/%s",
+            "extension": "jpg",
+            "tileResolution": 512,
+            "maxLevel": 4,
+            "cubeResolution": 3176
+          },
           hfov: 120,
           pitch: 0,
           yaw: 0,
@@ -70,8 +94,20 @@
         },
         scene3: {
           title: 'Длинный корридор',
-          type: 'equirectangular',
-          panorama: 'images/pano3.jpg',
+          // type: 'equirectangular',
+          type: 'multires',
+          // panorama: 'images/pano1.jpg',
+          multiRes: {
+            // config: 'images/tiles/output3/config.json'
+            basePath: 'images/tiles/output3',
+            "shtHash": "5.~WayWBofaza#f6j[ayWCj[j[j[ayfjfQfkf6ayayaya}fPfRfQfQayfPfQfQaefQfQfQfQj[",
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/fallback/%s",
+            "extension": "jpg",
+            "tileResolution": 512,
+            "maxLevel": 4,
+            "cubeResolution": 3176
+          },
           hfov: 120,     
           pitch: 0,
           yaw: 180,
