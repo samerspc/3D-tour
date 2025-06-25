@@ -128,7 +128,122 @@
               type: 'scene',        
               text: 'Вернуться в корридор',
               sceneId: 'scene2'
-            }
+            },
+            {
+              pitch: -10, yaw: 105,
+              type: 'scene',        
+              text: 'Кабинет',
+              sceneId: 'scene5'
+            },
+            {
+              pitch: -10, yaw: 165,
+              type: 'scene',        
+              text: 'Гостевая спальня',
+              sceneId: 'scene6'
+            },
+            {
+              pitch: -5, yaw: -1,
+              type: 'scene',        
+              text: 'Мастер спальня',
+              sceneId: 'scene4'
+            },
+          ]
+        },
+        scene4: {
+          title: 'Мастер спальня',
+          // type: 'equirectangular',
+          type: 'multires',
+          // panorama: 'images/pano1.jpg',
+          multiRes: {
+            // config: 'images/tiles/output3/config.json'
+            basePath: 'images/tiles/output41',
+            "shtHash": "5k~poej[t7WBt7WWWBWBofofj[j[ayWBj@j]axayayofozoeaxWCoeofkCayWVWBj[ayj[f6j]",
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/fallback/%s",
+            "extension": "jpg",
+            "tileResolution": 512,
+            "maxLevel": 4,
+            "cubeResolution": 3176
+          },
+          hfov: (window.innerWidth <= 600 ? 80 : 120),     
+          pitch: 0,
+          yaw: 180,
+          autoRotate: 0,         
+          mouseZoom: true,
+          showZoomCtrl: false,
+          showFullscreenCtrl: false,
+          hotSpots: [
+            {
+              pitch: -5, yaw: 165,
+              type: 'scene',        
+              text: 'Выйти',
+              sceneId: 'scene3'
+            },
+          ]
+        },
+        scene5: {
+          title: 'Кабинет',
+          // type: 'equirectangular',
+          type: 'multires',
+          // panorama: 'images/pano1.jpg',
+          multiRes: {
+            // config: 'images/tiles/output3/config.json'
+            basePath: 'images/tiles/output43',
+            "shtHash": "5T~pRjs:xaWBt7azWBWVWBj[fkj[fQt7j[fQaxWBayayRkxuRjWBj[ofoffQayWBWBa|ofj@of",
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/fallback/%s",
+            "extension": "jpg",
+            "tileResolution": 512,
+            "maxLevel": 4,
+            "cubeResolution": 3176
+          },
+          hfov: (window.innerWidth <= 600 ? 80 : 120),     
+          pitch: 0,
+          yaw: 180,
+          autoRotate: 0,         
+          mouseZoom: true,
+          showZoomCtrl: false,
+          showFullscreenCtrl: false,
+          hotSpots: [
+          {
+              pitch: -5, yaw: -186,
+              type: 'scene',        
+              text: 'Выйти',
+              sceneId: 'scene3'
+            },
+          ]
+        },
+        scene6: {
+          title: 'Гостевая спальня',
+          // type: 'equirectangular',
+          type: 'multires',
+          // panorama: 'images/pano1.jpg',
+          multiRes: {
+            // config: 'images/tiles/output3/config.json'
+            basePath: 'images/tiles/output42',
+            "shtHash": "5M~qW=a#oKt6Rjs:WBayWBayf5jsj@ofWBkBj[j[j[WBayayt7WBf6WBfkWVaeWBjuWBofkCay",
+            "path": "/%l/%s%y_%x",
+            "fallbackPath": "/fallback/%s",
+            "extension": "jpg",
+            "tileResolution": 512,
+            "maxLevel": 4,
+            "cubeResolution": 3176
+            
+          },
+          hfov: (window.innerWidth <= 600 ? 80 : 120),     
+          pitch: 0,
+          yaw: 180,
+          autoRotate: 0,         
+          mouseZoom: true,
+          showZoomCtrl: false,
+          showFullscreenCtrl: false,
+          hotSpots: [
+          {
+              pitch: -5, yaw: -135,
+              type: 'scene',        
+              text: 'Выйти',
+              sceneId: 'scene3'
+            },
           ]
         },
       }

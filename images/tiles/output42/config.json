@@ -1,0 +1,13 @@
+{
+    "hfov": 100.0,
+    "type": "multires",
+    "multiRes": {
+        "shtHash": "5M~qW=a#oKt6Rjs:WBayWBayf5jsj@ofWBkBj[j[j[WBayayt7WBf6WBfkWVaeWBjuWBofkCay",
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 3176
+    }
+}
